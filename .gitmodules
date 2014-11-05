@@ -1,0 +1,7 @@
+[submodule "ChibiOS"]
+	path = contrib/ChibiOS-RT-2.x
+	url = https://github.com/ChibiOS/ChibiOS-RT.git
+	branch = stable_2.6.x
+[submodule "ugfx"]
+	path = contrib/ugfx
+	url = https://bitbucket.org/Tectu/ugfx
