@@ -58,7 +58,7 @@ LDSCRIPT =
 # These should be at the end
 #
 install:
-	st-flash write .build/chibi+ugfx.bin 0x8000000
+	st-flash write $(BUILDDIR)/$(PROJECT).bin  0x8000000
 
 include $(GFXLIB)/tools/gmake_scripts/library_ugfx.mk
 include $(GFXLIB)/tools/gmake_scripts/os_$(OPT_OS).mk
