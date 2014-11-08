@@ -16,7 +16,7 @@
 	GFXLIB					= contrib/ugfx
 	GFXBOARD				= STM32F429i-Discovery
 	#GFXDEMO					= modules/gdisp/arcsectors
-	GFXDEMO					= modules/gdisp/basics
+	#GFXDEMO					= modules/gdisp/basics
 	#GFXDEMO					= modules/gdisp/circles
 	#GFXDEMO					= modules/gdisp/fonts
 	#GFXDEMO					= modules/gdisp/fonts_cyrillic
@@ -24,6 +24,7 @@
 	#GFXDEMO					= modules/gdisp/images_animated
 	#GFXDEMO					= modules/gdisp/multiple_displays
 	#GFXDEMO					= modules/gdisp/streaming
+	GFXDEMO					= modules/gwin/widgets
 
 # ChibiOS settings
 ifeq ($(OPT_OS),chibios)

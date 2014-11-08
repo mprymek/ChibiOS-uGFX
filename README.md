@@ -4,6 +4,8 @@ This repository is a self-contained demo for STM32F429-Discovery using http://ww
 
 NOTE: This demo was written by the uGFX team and is part of the uGFX distribution[1]. I have just shaped it into this self-contained repository. For ChibiOS and uGFX source code licenses please see their web pages.
 
+NOTE 2: "touch" branch has touchscreen support
+
 [1] https://bitbucket.org/Tectu/ugfx/commits/2284e5e9cf2d22e485df1ac102cb58c5d649efcb
 
 # Prerequisites
